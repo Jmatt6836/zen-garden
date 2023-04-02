@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    background-image: url(../xavi-cabrera-kn-UmDZQDjM-unsplash.jpg) ;
+    background-repeat: repeat;
+    font-family: "Kanit";
+}
+.page-wrapper{
+    
+    max-width: 500px;
+    margin: auto;
+   
+    
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+header h2{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#zen-supporting{
+    max-width:500px ;
+    display: grid;
+    grid-template-columns: 250px 250px;
+   
+    
+}
+
+.intro .summary{
+    grid-column: 1/2;
+    background-color: #ff8700;
+}
+
+#zen-preamble{
+    grid-column: 2/3;
+    background-color: #A1FF0A;
+    
+    
+}
+#zen-explanation{
+    grid-column: 1/3;
+    background-color: #147df5;
+    
+}
+
+#zen-participation{
+    background-color: #0aff99;
+    grid-column: 1/3;
+    margin-top: 20px;
+}
+
+#zen-benefits{
+    background-color: #be0aff;
+    margin-top: 20px;
+    grid-column: 1/3;
+}
+
+#zen-requirements{
+    background-color: #ffd300;
+    margin-top: 20px;
+    grid-column: 1/3;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+   grid-column: 1/3;
+    justify-content: space-evenly;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer a:hover{
+    background-color: gray;
+}
+.sidebar{
+    background-color: #0AEFFF;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+
+ ul {
+    list-style-type: none;
+    
+}
+
+ul a{
+    
+    color: black;
+    cursor: pointer;
+}
+
+ul a:hover{
+    background-color: white;
+
+}
+
+@media  screen and (min-width: 500px) {
+    .page-wrapper{
+        max-width: 1000px;
+    }
+    #zen-supporting{
+        max-width: 1000px;
+        grid-template-columns: 1fr 1fr;
+    }
+    #zen-explanation{
+        grid-column: 1/2;
+        
+    }
+    
+    #zen-participation{
+        grid-column: 1/3;
+        margin-top: 20px;
+    }
+    
+    #zen-benefits{
+        margin-top: 20px;
+        grid-column: 2/3;
+    }
+    
+    #zen-requirements{
+        margin-top: 20px;
+        grid-column: 1/3;
+    }
+}

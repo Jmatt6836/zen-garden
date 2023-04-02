@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+h2,
+h4 {
+  font-family: Limelight;
+}
+
+h3 {
+  font-family: Poiret One;
+  margin: 0;
+}
+
+h1 {
+  font-family: Poiret One;
+  background: #C88D81;
+  color: #444C57;
+  display: inline-block;
+  font-weight: bolder;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+}
+
+h2 {
+  color: #444C57;
+  font-weight: 900; /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-family: verdana, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #444C57;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+a:hover {
+  border-color: #C88D81;
+}
+
+[role=banner] > h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.summary {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15% 0;
+}
+.summary p:last-child {
+  border-top: 1px solid #C88D81;
+  margin-top: 1em;
+  padding-top: 1.5em;
+}
+.summary a {
+  color: #fff;
+}
+
+.preamble {
+  background: rgba(255, 255, 255, 0.9);
+  color: #444C57;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%;
+}
+
+.intro {
+  padding: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(233, 233, 233);
+  padding: 5%;
+}
+
+body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 85%;
+  color: #444C57;
+  background-color: #D3BFA6;
+  margin: 0;
+  padding: 1em;
+}
+
+section {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+.colors {
+  display: flex;
+  flex-flow: row wrap;
+}
+.colors > h3 {
+  width: 100%;
+  flex: 1 0 100%;
+}
+.colors > figure {
+  margin: 0;
+  flex: 1 1 16.6666667%;
+}
+
+.swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid;
+}
+
+.primary {
+  background-color: #D3BFA6;
+}
+
+.accent1 {
+  background-color: #C88D81;
+}
+
+.accent2 {
+  background-color: #E5C469;
+}
+
+.accent3 {
+  background-color: #415457;
+}
+
+.accent4 {
+  background-color: #757670;
+}
+
+.accent5 {
+  background-color: #444C57;
+}
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.uppercase {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #444C57;
+}
+
+.uppercase-light {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style-pattern.css.map */
